@@ -10,9 +10,7 @@ export const personalData = {
   github: "https://github.com/LukeBrutale",
   facebook: "",
   linkedIn: "https://www.linkedin.com/in/yura-bema-947141208/",
-  twitter: "",
-  stackOverflow: "",
-  leetcode: "",
+  telegram: "https://t.me/LukeBrutale",
   devUsername: "LukeBrutale",
   resume: "https://drive.google.com/file/d/1APDi_Z3yzZ9t_mJhLdyUMkPSjRrbqKlh/view?usp=sharing",
 };
