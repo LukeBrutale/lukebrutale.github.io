@@ -8,7 +8,6 @@ export const personalData = {
   phone: "+380971122841",
   address: "Kyiv, Ukraine ",
   github: "https://github.com/LukeBrutale",
-  facebook: "",
   linkedIn: "https://www.linkedin.com/in/yura-bema-947141208/",
   telegram: "https://t.me/LukeBrutale",
   devUsername: "LukeBrutale",

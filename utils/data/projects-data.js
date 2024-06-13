@@ -1,8 +1,3 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
-
 export const projectsData = [
     {
         id: 1,
@@ -11,8 +6,6 @@ export const projectsData = [
         stack: ['HTML, CSS, Tailwind, JavaScript, TypeScript, React, Next.js, ReduxToolkit, ReduxPersist, restAPI, Python, PostgreSQL'],
         role: 'Frontend Developer',
         link: 'https://web-app-marketplace-sviy.vercel.app/',
-        demo: '',
-        image: crefin,
     },
     {
         id: 2,
@@ -21,8 +14,6 @@ export const projectsData = [
         stack: ['HTML, SCSS, JS, React'],
         role: 'Full Stack Developer',
         link: 'https://lukebrutale.github.io/weather_cast/',
-        demo: '',
-        image: travel,
     },
     {
         id: 3,
@@ -31,8 +22,6 @@ export const projectsData = [
         stack: ['HTML, SASS, JavaScript, Parcel'],
         link: 'https://lukebrutale.github.io/parcel-project-template/',
         role: 'Frontend Developer',
-        demo: '',
-        image: realEstate,
     },
     {
         id: 4,
@@ -40,8 +29,6 @@ export const projectsData = [
         description: "In this exciting web development project, as a developer, I was creating a movie library - the perfect place for movie enthusiasts. I, together with my team, worked on building a platform that offers a wide selection of movies and TV shows for every taste and mood. My role in the project included developing functionality for convenient search and content browsing, as well as enhancing the user interface for maximum usability. The result of our collaborative work is an engaging and intuitive website that invites everyone on an exciting journey into the world of cinema.",
         stack: ['pure JavaScript, HTML and SCSS'],
         link: 'https://lukebrutale.github.io/js_team_project_group_5-main/',
-        demo: '',
-        image: ayla,
         role: 'Frontend Developer',
     }
 ];
