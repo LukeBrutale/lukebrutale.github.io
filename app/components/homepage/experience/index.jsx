@@ -22,7 +22,7 @@ function Experience() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Experiences
+            Experience
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -65,9 +65,11 @@ function Experience() {
                           <p className="text-sm sm:text-base">
                             {experience.company}
                           </p>
-                          <p className="text-sm sm:text-base">
-                            {experience.responsibilities}
-                          </p>
+                          <div>
+                              {experience.responsibilities.map((responsibility, index) => (
+                                <p key={index}>&#8226; {responsibility}</p>
+                                ))}
+                          </div>
                         </div>
                       </div>
                     </div>

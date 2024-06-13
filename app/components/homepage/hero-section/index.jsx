@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTelegram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
@@ -26,7 +26,9 @@ function HeroSection() {
             Hello, <br />
             My name is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a `}
+            {` , `}
+            <br/>
+            {` I'm a `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
@@ -47,13 +49,6 @@ function HeroSection() {
               <BsLinkedin size={30} />
             </Link>
             <Link
-              href={personalData.facebook}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaFacebook size={30} />
-            </Link>
-            <Link
               href={personalData.telegram}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
@@ -69,7 +64,6 @@ function HeroSection() {
                 <RiContactsFill size={16} />
               </button>
             </Link>
-
             <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
             >
               <span>Get Resume</span>
