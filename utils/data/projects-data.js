@@ -16,7 +16,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Weather Forecast',
+        name: 'WeatherCast',
         description: 'WeatherCast - Your Personal Meteorologist an elegant and intuitive app that provides the most accurate weather forecasts for your location. Whether you are planning a trip or simply want to know what the weather will be like tomorrow, WeatherCast will become your indispensable assistant. In this project, I managed all aspects from UI/UX design to frontend development.',
         stack: ['HTML, SCSS, JS, React'],
         role: 'Full Stack Developer',

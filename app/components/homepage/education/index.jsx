@@ -1,11 +1,10 @@
-// @flow strict
 import Image from "next/image";
-
 import { educations } from "@/utils/data/educations";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import lottieFile from '/public/lottie/study.json';
+import Link from "next/link";
 
 function Education() {
   return (
@@ -46,6 +45,7 @@ function Education() {
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
+                    <Link href={education.link}>
                     <div className="p-3 relative text-white">
                       <Image
                         src="/blur-23.svg"
@@ -71,6 +71,8 @@ function Education() {
                         </div>
                       </div>
                     </div>
+                    </Link>
+
                   </GlowCard>
                 ))
               }

@@ -1,20 +1,16 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Frontend Developer",
+    duration: "2020-2022",
+    institution: "IT School GoIT,",
+    link: "https://drive.google.com/file/d/1697mzn6qmCTZZQF6OtsUlpAFY4HGU7dX/view?usp=sharing",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Master’s in Psychology",
+    duration: "2006 - 2011",
+    institution: "Kyiv University of Modern Knowledge",
+    link: "",
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
 ]
