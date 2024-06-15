@@ -1,6 +1,4 @@
-
 import Link from 'next/link';
-
 import { IoStar } from "react-icons/io5";
 
 function Footer() {
