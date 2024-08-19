@@ -9,7 +9,6 @@ export const educations = [
   {
     id: 2,
     title: "Master’s in Psychology",
-    duration: "2006 - 2011",
     institution: "Kyiv University of Modern Knowledge",
     link: "/",
   },

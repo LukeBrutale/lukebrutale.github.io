@@ -100,23 +100,23 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">HTML</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">JavaScript</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Tailwind</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Node.js</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">TypeScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Next.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Tailwind CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Redux Toolkit</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">REST API</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
